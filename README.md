@@ -48,6 +48,3 @@ you can order it with or without chicken.*
 *gspicy salami, chillies, starring Kalamata olives, spicy peppers, and gooey mozzarella cheese.*
 
 ![](https://www.pizzarecipe.org/wp-content/uploads/2019/01/Pizza-Diavola.jpg)
-
-### my pull request link
-[Pull-request](https://github.com/Mohammad-Almomani/my-restaurant/pull/1)
