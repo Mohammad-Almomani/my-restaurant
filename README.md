@@ -66,3 +66,4 @@ you can order it with or without chicken.*
 | Fanta | 0.5 JD |
 | Sprite | 0.5 JD |
 | Water | 0.35 JD |
+
