@@ -67,3 +67,13 @@ you can order it with or without chicken.*
 | Sprite | 0.5 JD |
 | Water | 0.35 JD |
 
+
+Wireframe images
+
+Main Page
+![](https://i.imgur.com/IM67MKN.png)
+
+about Page
+![](https://i.imgur.com/qQxkSp5.png)
+
+
