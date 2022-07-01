@@ -71,9 +71,9 @@ you can order it with or without chicken.*
 Wireframe images
 
 Main Page
-![](https://i.imgur.com/IM67MKN.png)
+![](./refs/mainpage.png)
 
 about Page
-![](https://i.imgur.com/qQxkSp5.png)
+![](./refs/aboutus.png)
 
 
