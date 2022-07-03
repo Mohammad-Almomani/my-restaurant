@@ -1,16 +1,3 @@
-h1 {
-    color: palevioletred;
-}
-/* .top-navigaion-bar{
-    text-align: center;
-} */
-
-/* #nav_barlogo {
-} */
-
-/* #moon{
-    image-orientation: flip;
-} */
 
 .top-navigaion-bar ul {
     padding: 5px;
@@ -42,6 +29,11 @@ h1 {
         font-size: 50px;
         font-family: 'Italianno', cursive;
     }
+    .team_title{
+        display: inline-block;
+        font-size: 50px;
+        font-family: 'Italianno', cursive;
+    }
 #search_bar{
     padding-top: 5px;
     padding-bottom: 5px;
@@ -67,7 +59,7 @@ h1 {
     .special_dishes{
         text-align: center;
     }
-    .special{
+    .special, .team{
         padding-top: 30px;
         padding-bottom: 30px;
         font-size: x-large;
@@ -79,13 +71,13 @@ h1 {
         font-size: x-large;
         font-family: 'Special Elite', cursive;
     }
-    .special_dishes_dis{
+    .special_dishes_dis, .about_team {
         padding-top: 0px;
         padding-bottom: 20px;
         font-size: large;
         font-family: 'Special Elite', cursive;
     }
-    .special_dishes_imgs {
+    .special_dishes_imgs, .team_pic {
         padding-bottom: 20px;
 
     }
