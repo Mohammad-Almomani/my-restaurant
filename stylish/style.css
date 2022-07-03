@@ -1,0 +1,90 @@
+
+.top-navigaion-bar ul {
+    padding: 5px;
+    margin-left: 0%;
+    margin-bottom: 30px;
+    text-align: center;
+    display:inline-block;
+    vertical-align:top;
+    background-color: bisque;
+  }
+  .logo {
+    display: inline-block;
+    width: 90px;
+    height: 50px;
+    margin-right: 70px;
+    margin-top: 2px;}
+
+    #lang_change {
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    margin-right: 500px;
+    margin-bottom: 20px;
+    }
+
+    .title{
+        display: inline-block;
+        margin-right: 210px;
+        font-size: 50px;
+        font-family: 'Italianno', cursive;
+    }
+    .team_title{
+        display: inline-block;
+        font-size: 50px;
+        font-family: 'Italianno', cursive;
+    }
+#search_bar{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 50px;
+    margin-left: 30px;
+}
+.order_now{
+    font-size:  large;
+}
+
+#dark_mode{
+    width: 30px;
+    height: 20px;
+    margin-right: 75px}
+
+    .main{
+        background-color: silver;
+    }
+
+    .main_mid{
+        text-align: center;
+    }
+    .special_dishes{
+        text-align: center;
+    }
+    .special, .team{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-size: x-large;
+        font-family: 'Special Elite', cursive;
+    }
+    .special_dishes_list{
+        padding-top: 30px;
+        padding-bottom: 20px;
+        font-size: x-large;
+        font-family: 'Special Elite', cursive;
+    }
+    .special_dishes_dis, .about_team {
+        padding-top: 0px;
+        padding-bottom: 20px;
+        font-size: large;
+        font-family: 'Special Elite', cursive;
+    }
+    .special_dishes_imgs, .team_pic {
+        padding-bottom: 20px;
+
+    }
+    .footer-navigaion-bar{
+        background-color: gray;
+    }
+
+    .footer-nav-icons{
+        padding-right: 90px;
+    }
