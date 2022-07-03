@@ -2,7 +2,8 @@
 .top-navigaion-bar ul {
     padding: 5px;
     margin-left: 0%;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
+    width: 100%;
     text-align: center;
     display:inline-block;
     vertical-align:top;
@@ -26,6 +27,7 @@
     .title{
         display: inline-block;
         margin-right: 210px;
+        padding-top:10px;
         font-size: 50px;
         font-family: 'Italianno', cursive;
     }
@@ -115,8 +117,29 @@
 
     .footer-navigaion-bar{
         background-color: gray;
+        /* padding-bottom: 0%; */
     }
 
     .footer-nav-icons{
         padding-right: 90px;
+    }
+
+    .menu_nav_bar {
+        background-color:antiquewhite ;
+    }
+
+    .containter {
+        display: flex;
+        justify-content: center;
+        font-size: x-large;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .spacing {
+        margin-right: 25px;
+    }
+
+    .active{
+        text-decoration: none;
+        font-style: normal;
     }
