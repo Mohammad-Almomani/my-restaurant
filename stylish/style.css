@@ -31,6 +31,7 @@
     }
     .team_title{
         display: inline-block;
+        text-align: center;
         font-size: 50px;
         font-family: 'Italianno', cursive;
     }
@@ -59,7 +60,7 @@
     .special_dishes{
         text-align: center;
     }
-    .special, .team{
+    .special, #owner, #troll, #chef {
         padding-top: 30px;
         padding-bottom: 30px;
         font-size: x-large;
@@ -71,7 +72,7 @@
         font-size: x-large;
         font-family: 'Special Elite', cursive;
     }
-    .special_dishes_dis, .about_team {
+    .special_dishes_dis, #about_owner, #about_troll, #about_chef, #about_chef2, #about_chef3 {
         padding-top: 0px;
         padding-bottom: 20px;
         font-size: large;
@@ -79,8 +80,39 @@
     }
     .special_dishes_imgs, .team_pic {
         padding-bottom: 20px;
-
     }
+    .team_pic{
+        padding-right: 50px;
+        width:450px;
+        height: 450px;
+    }
+    #owner {
+        
+        padding-left: 250px;
+        padding-right: 280px;
+    }
+    #chef {
+        padding-left: 370px;
+    }
+    #about_owner{
+        display: inline-block;
+
+        padding-left: 290px;
+        padding-right: 160px;
+        padding-top: 10px;
+    }
+    #about_chef{
+        padding-left: 45px ;
+    }
+    #about_chef2{
+        display: inline-block;
+        padding-left: 1195px ;
+    }
+    #about_chef3{
+        display: inline-block;
+        padding-left: 1300px ;
+    }
+
     .footer-navigaion-bar{
         background-color: gray;
     }
