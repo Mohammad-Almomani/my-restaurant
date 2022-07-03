@@ -4,23 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylish/reset.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Special+Elite&display=swap" rel="stylesheet">     <link rel="stylesheet" href="./stylish/style.css">
     <title>MaMMaMìa Ristorante</title>
     <link rel="icon" href="./refs/logo.png" type="image/icon type">
 </head>
 <body>
     <header>
      
-        <div class="top-navigaion-bar">
-          <img src="./refs/logo.png" alt="logo" width="90" height="40" />
-          <input type="image" src="https://e7.pngegg.com/pngimages/915/498/png-clipart-computer-icons-language-icon-arabic-translation-language-miscellaneous-text.png" alt="language-change-icon" width="60" height="25" />
-          <a >MaMMaMìa Ristorante</a>
-          <input type="image" src="https://i.pinimg.com/originals/b7/02/af/b702afc7b811840ebc49037cdc98bc45.jpg" alt="user-location-update" width="70" height="40" />
-          <input type="text" placeholder="Search..">
-          <a class="active" href="#go-to-menu">Order Now</a>
-          <input type="image" src="https://static.vecteezy.com/system/resources/thumbnails/004/798/846/small/shopping-cart-logo-or-icon-design-vector.jpg" alt="cart-logo" width="50" height="50" />
-          <input type="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Moon_symbol_decrescent.svg/2048px-Moon_symbol_decrescent.svg.png"width="55" height="35" alt="night-mood-buttun">
-        </div>
-        <div class="Menu">
+        <section class="top-navigaion-bar">
+          <ul>
+          <img class="logo" src="./refs/logo.png" alt="logo" />
+          <input id="lang_change" type="image" src="https://e7.pngegg.com/pngimages/915/498/png-clipart-computer-icons-language-icon-arabic-translation-language-miscellaneous-text.png" alt="language-change-icon"/>
+          <a class="title">MaMMaMìa Ristorante</a>
+          <i class="uil uil-map-marker"></i>
+          <input id="search_bar" type="text" placeholder="Search..">
+          <a class="order_now" href="#go-to-menu">Order Now</a>
+          <i class="uil uil-shopping-cart-alt"></i>
+          <input id="dark_mode" type="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Moon_symbol_decrescent.svg/2048px-Moon_symbol_decrescent.svg.png" alt="night-mood-buttun">
+          </ul>
+        </section>
+
+        <section class="menu_nav_bar">
         <form action="/action_page.php">
           <label for="Menu">Our Menu:</label>
           <select name="Food" id="Food-types">
@@ -31,7 +39,8 @@
             <option value="Drinks">Drinks</option>
           </select>
           <br><br>
-        </form>
+        </form> 
+         
         <form action="/action_page.php">
           <label for="Menu">Exclusive Deals:</label>
           <select name="Food" id="Food-types">
@@ -40,47 +49,48 @@
           </select>
           <br><br>
         </form>
+
         <a class="active" href="./about.html"><h3>About Us</h3></a>
-      </div>
+      </section>
       </header>
-<main>
-      <div>
-        <h1>MaMMaMìa Ristorante</h1>
-        <a>THE BEST ITALIAN FOOD YOU WILL EVER TASTE</a>
+<main class="main">
+      <div class="main_mid">
+        <h1 class="title" style="margin-right: 0px; padding-bottom: 30px">MaMMaMìa Ristorante</h1>
+        <p style="font-family: 'Italianno', cursive; font-size: x-large;">THE BEST ITALIAN FOOD YOU WILL EVER TASTE</p>
       </div>
       
-      <div class="special dishes">
-        <h3>Our special dishes</h3>
-          <h4>Spaghetti Aglio e Olio</h4>
-            <p>garlic, olive oil, parsley, and Parmigiano-Reggiano cheese tossed with cooked pasta</p>
-            <img src="https://www.fattoincasadabenedetta.it/wp-content/uploads/2022/02/SPAGHETTI-AGLIO-OLIO-E-PEPERONCINO-sito-6.jpg" alt="SPAGHETTI" width="300" height="300" />
+      <div class="special_dishes">
+        <h3 class="special">Our special dishes</h3>
+          <h4 class="special_dishes_list">Spaghetti Aglio e Olio</h4>
+            <p class="special_dishes_dis">garlic, olive oil, parsley, and Parmigiano-Reggiano cheese tossed with cooked pasta</p>
+            <img class="special_dishes_imgs" src="https://www.fattoincasadabenedetta.it/wp-content/uploads/2022/02/SPAGHETTI-AGLIO-OLIO-E-PEPERONCINO-sito-6.jpg" alt="SPAGHETTI" width="500" height="300" />
             
-            <h4>Margherita Pizza</h4>
-            <p>gmargherita pizza features a bubbly crust, crushed San Marzano tomato sauce, fresh mozzarella and basil, a drizzle of olive oil, and a sprinkle of salt.</p>
-            <img src="https://images.getrecipekit.com/20220211142347-margherita-9920.jpg?aspect_ratio=16:9&quality=90&" alt="Margherita-Pizza" width="300" height="300" />
+            <h4 class="special_dishes_list">Margherita Pizza</h4>
+            <p class="special_dishes_dis" >gmargherita pizza features a bubbly crust, crushed San Marzano tomato sauce, <br> fresh mozzarella and basil, a drizzle of olive oil, and a sprinkle of salt.</p>
+            <img class="special_dishes_imgs" src="https://images.getrecipekit.com/20220211142347-margherita-9920.jpg?aspect_ratio=16:9&quality=90&" alt="Margherita-Pizza" width="500" height="300" />
 
-        <h4>Diavola Pizza</h4>
-            <p>gspicy salami, chillies, starring Kalamata olives, spicy peppers, and gooey mozzarella cheese.</p>
-            <img src="https://www.pizzarecipe.org/wp-content/uploads/2019/01/Pizza-Diavola.jpg" alt="Diavola-Pizza" width="300" height="300" />
+        <h4 class="special_dishes_list">Diavola Pizza</h4>
+            <p class="special_dishes_dis">gspicy salami, chillies, starring Kalamata olives, spicy peppers, and gooey mozzarella cheese.</p>
+            <img class="special_dishes_imgs" src="https://www.pizzarecipe.org/wp-content/uploads/2019/01/Pizza-Diavola.jpg" alt="Diavola-Pizza" width="500" height="300" />
 
-            <h2><a href="https://github.com/Mohammad-Almomani/my-restaurant" target="_blank">Our Menu</a></h2>
+            <h2 style="font-size: xx-large ;"><a href="https://github.com/Mohammad-Almomani/my-restaurant" target="_blank">Our Menu</a></h2>
 
       </div>
     </main>
       <footer>
       
         <div class="footer-navigaion-bar">
-          <span>How to reach us:</span>
-          <input type="image" src="https://thumbs.dreamstime.com/b/rounded-facebook-logo-web-print-transparent-white-background-use-printing-purpose-165757365.jpg" alt="our-facebook-page" width="60" height="40" />
-          <input type="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/768px-Instagram_logo_2016.svg.png" alt="our-instgram-page" width="60" height="40" />
+          <span style="font-size: x-large;">How to reach us:</span>
+          <input class="footer-nav-icons" type="image" src="https://thumbs.dreamstime.com/b/rounded-facebook-logo-web-print-transparent-white-background-use-printing-purpose-165757365.jpg" alt="our-facebook-page" width="60" height="40" />
+          <input class="footer-nav-icons" type="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/768px-Instagram_logo_2016.svg.png" alt="our-instgram-page" width="60" height="40" />
+          <img  src="https://w7.pngwing.com/pngs/711/803/png-transparent-address-book-computer-icons-font-awesome-contact-icon-text-logo-web-template.png" alt="contact-number" width="60" height="40" />
+          <a class="footer-nav-icons">+962790466429</a>
           <img src="https://w7.pngwing.com/pngs/711/803/png-transparent-address-book-computer-icons-font-awesome-contact-icon-text-logo-web-template.png" alt="contact-number" width="60" height="40" />
-          <a>+962790466429</a>
-          <img src="https://w7.pngwing.com/pngs/711/803/png-transparent-address-book-computer-icons-font-awesome-contact-icon-text-logo-web-template.png" alt="contact-number" width="60" height="40" />
-          <a>064664290</a>
+          <a class="footer-nav-icons">064664290</a>
           <input type="image" src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/112-gmail_email_mail-512.png"width="55" height="35" alt="our-email">
-        <a>MaMMaMìaRistorante@gmail.com</a>
-        <input type="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Copyright.svg/2048px-Copyright.svg.png" alt="contact-number" width="60" height="40" />
-        <input type="image" src="https://www.kindpng.com/picc/m/108-1084466_map-location-outline-map-location-icon-png-transparent.png" alt="contact-number" width="90" height="60" />
+        <a class="footer-nav-icons">MaMMaMìaRistorante@gmail.com</a>
+        <input class="footer-nav-icons" type="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Copyright.svg/2048px-Copyright.svg.png" alt="contact-number" width="60" height="40" />
+        <input class="footer-nav-icons" type="image" src="https://www.kindpng.com/picc/m/108-1084466_map-location-outline-map-location-icon-png-transparent.png" alt="contact-number" width="90" height="60" />
 
         </div>
 
